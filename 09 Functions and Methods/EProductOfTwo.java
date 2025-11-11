@@ -8,7 +8,6 @@ public class EProductOfTwo {
         int b = 10;
         int ans = product(a, b);
         System.out.println("Ans: " + ans);
-        System.out.println(ans);
-        
+        System.out.println(ans);   
     }
 }
