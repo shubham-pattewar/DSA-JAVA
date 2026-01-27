@@ -16,7 +16,6 @@ public class DTrappingRainwater {
         for(int i = n-2; i >= 0 ; i--){
             rightMax[i] = Math.max(height[i], rightMax[i+1]);
         }
-
         
         int trappedWater = 0;
         // loop
