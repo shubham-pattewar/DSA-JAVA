@@ -18,6 +18,5 @@ public class Que1 {
     public static void main(String[] args) {
         int[][] array = { {4,7,8},{8,8,7} };
         System.out.println(count7(array));
-
     }
 }
