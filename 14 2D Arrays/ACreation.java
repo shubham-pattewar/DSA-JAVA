@@ -18,10 +18,9 @@ public class ACreation {
         return false;
     }
     public static void main(String[] args) {
-        int matrix[][] = new int[4][3];
+        int matrix[][] = new int[3][3];
         int n = matrix.length;          //rows
         int m = matrix[0].length;       //columns
-        System.out.println(n);
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Elements: ");
