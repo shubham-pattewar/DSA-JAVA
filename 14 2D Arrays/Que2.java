@@ -5,11 +5,8 @@
 public class Que2 {
     public static int sumof2ndRow(int arr[][]){
         int sum = 0;
-
-        for(int i=1; i < 2; i++){
-            for(int j=0; j < arr[0].length; j++){
-                sum += arr[i][j];
-            }
+        for(int j=0; j < arr[0].length; j++){
+            sum += arr[1][j];
         }
         return sum;
     }
