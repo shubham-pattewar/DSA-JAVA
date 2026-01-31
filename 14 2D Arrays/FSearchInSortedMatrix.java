@@ -1,6 +1,6 @@
 public class FSearchInSortedMatrix {
 
-    public static boolean searchMatrix(int matrix[][], int key){
+    public static boolean staircaseSearch(int matrix[][], int key){
         int row = 0, col = matrix[0].length-1;
 
         while(row < matrix.length && col >=0){
@@ -24,6 +24,6 @@ public class FSearchInSortedMatrix {
                          };
         
         int key = 33;                 
-        searchMatrix(matrix, key);
+        staircaseSearch(matrix, key);
     }
 }
