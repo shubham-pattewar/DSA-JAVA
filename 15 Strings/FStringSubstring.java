@@ -12,6 +12,7 @@ public class FStringSubstring {
         System.out.println(subString(str, 0, 4));
         System.out.println(subString(str, 3, 5));
 
+        // shortcut
         System.out.println(str.substring(0,5));
 
     }
