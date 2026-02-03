@@ -1,4 +1,4 @@
-public class SLargestString {
+public class GLargestString {
     public static void main(String[] args) {
         String fruits[] = {"apple", "banana", "mango"};
 
@@ -8,7 +8,6 @@ public class SLargestString {
                 largest = fruits[i];
             }
         }
-
         System.out.println(largest);
     }
 }
